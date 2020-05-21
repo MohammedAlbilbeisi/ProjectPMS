@@ -1,0 +1,118 @@
+
+
+
+
+body {
+	font-family: 'Acme', sans-serif;
+    font-size: 20px;
+	padding: 0;
+    margin: 0;
+    background-color: orangered;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+label{
+    text-align: center;
+        width: 50%;
+    display: inline-block;
+
+}
+input{
+            width: 50%;
+display: block;
+    text-align: center;
+    padding-top: 10px;
+}
+
+div {cursor: pointer;
+margin-bottom: 20px;
+
+}
+p, h1{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+   font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Norican', cursive;}
+.container{
+    width: 50%;
+        margin-left:  35%;
+
+}
+
+#btns{
+    
+}
+    
+    button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+        cursor: pointer;
+        margin-left: 16%;
+        margin-top: 20px;
+}
+button:hover {
+    
+    background-color: red;
+}
+.hide{
+    display: none;
+    background-color: red;
+    color:white;
+    
+    }
+.validation-error{
+
+    background-color: red;
+    color:white;
+    
+    }
+
+
+
+
+
+
+.customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.customers td, .customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customers tr:nth-child(even){background-color: #f2f2f2;}
+
+.customers tr:hover {background-color: #ddd;}
+
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1ab120;
+  color: white;
+    text-align: center;
+}
+
+.submit{
+    margin-top: 20px;
+   margin-bottom: 20px;
+padding: 20px;
+    background-color: green;
+    cursor: pointer;
+}

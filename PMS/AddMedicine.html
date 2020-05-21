@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz  Application</title>
+		<link rel="stylesheet" type="text/css" href="styleAddMedicine.css">
+
+        
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+
+
+	</head>
+
+	<body>
+        
+<h1>Pharmacy Management System (PMS) </h1>
+		<p>nnnnnn</p>
+
+<form   class="container" onsubmit="event.preventDefault();WhenFormSubmit();" autocomplete="off">
+  <label for="MID"> Medicine ID:</label><label class="validation-error hide" id="ValidationError">This field is required.</label>
+ <input type="text" name="MID" id="MID"  >
+            
+  <label for="MN"> Medicine Name:</label>
+  <input type="text" name="MN" id="MN"  >
+  <label for="PD">  Production Date:</label>
+  <input type="text" name="PD" id="PD"  >
+            
+  <label for="ED">  Expiry date:</label>
+  <input type="text" name="ED" id="ED"  >
+            
+            <input class="submit" type="submit" value="submit">
+
+            
+
+     
+
+
+</form>
+        
+         <table class="list customers" id="Medicinelist">
+                    <thead>
+                        <tr>
+                            <th> Medicine ID</th>
+                            <th>Medicine Name</th>
+                            <th>Production Date</th>
+                            <th>Expiry date</th>
+                            <th>Operations</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+        
+        
+        <p class="p1" id="p1"></p>
+
+        
+        <script src="JavaScript.js"></script>
+
+	</body>
+</html>

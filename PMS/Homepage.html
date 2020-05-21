@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quiz  Application</title>
+		<link rel="stylesheet" type="text/css" href="styleHomepage.css">
+<link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Norican&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+        
+<div class="main">
+<h1>Pharmacy Jerusalem </h1>
+			
+    <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li ><a href="#about">About customers </a></li>
+<li ><a href="#about">Our Features</a></li>
+
+        
+        
+</ul>
+    
+    
+    
+            <div class="w3-content w3-section" style="max-width:1200px">
+
+  <img class="mySlides w3-animate-fading" src="beautyDeskAr.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="LensmeDeskAr1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="PaletteDeskAr1.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="LensmeDeskAr1.jpg" style="width:100%">
+</div></div>
+
+
+    <!--Start  awesome -->
+
+    <div class="awesome" id="ab">
+
+            <h2 class="head-border-center" > Our Features</h2>
+
+            <div class="row">
+
+                <div class="col1">
+                    <i class="far fa-lightbulb fa-3x fa-spin"></i>
+                    <h3> We work 24 hours</h3>
+                    <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                </div>
+
+                <div class="col1">
+                    <i class="far fa-keyboard fa-3x fa-spin"></i>
+                    <h3>  we have Featured crew</h3>
+                    <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                </div>
+
+                <div class="col1">
+                    <i class="fas fa-bolt fa-3x fa-spin"></i>
+                    <h3> Our prices are cheap</h3>
+                    <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                </div>
+
+            </div>
+        </div>
+
+    <!--end  awesome -->
+
+
+
+    <!--Start  testimonials -->
+    <div class="testimonials">
+
+            <h2 class="head-border-center text-center">What our customers are saying</h2>
+
+            <div class="row">
+
+                <div class="col1">
+
+                    <div class="client-Says">
+                        <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                    </div>
+
+                    <div class="media">
+                        <img class="mr-3  rounded-circle  img-thumbnail img-fluid "src="img_avatar1.png"  alt="Generic placeholder image">
+
+                        <div class="media-body">
+                            <h5 class="mt-0">maxine david</h5>
+                            <p>client 1 </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col1">
+
+                    <div class="client-Says">
+                        <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                    </div>
+
+                    <div class="media">
+                        <img class="mr-3 rounded-circle  img-thumbnail img-fluid" src="img_avatar4.png"  alt="Generic placeholder image">
+
+                        <div class="media-body">
+                            <h5 class="mt-0">andrew donald </h5>
+                            <p>client 2 </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col1">
+
+                    <div class="client-Says">
+                        <p>Lorem ipsum dolor sit amet,consectet adipiscing amet vehicula nunc,elit.Null laoreet elit a interdum condimentum</p>
+                    </div>
+
+                    <div class="media">
+                        <img class="mr-3 rounded-circle  img-thumbnail img-fluid"  src="img_avatar3.png"  alt="Generic placeholder image">
+
+                        <div class="media-body">
+                            <h5 class="mt-0">celine-diane</h5>
+                            <p>client3 </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    
+
+    <!--end  testimonials -->
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
+
+
+
+	</body>
+</html>
